@@ -7,7 +7,7 @@ All Xcode code snippets exist in `~/Library/Developer/Xcode/UserData/CodeSnippet
 If you want to add this nice placeholder in rounded blue rect simply put it between `<#` and `#>` and it will be transformed in both editor and final snippet.
 
 ## Snippets
-Currently existing snippets (I hope they will be updated on a regular basis with your help :) ):
+Currently existing snippets
 
 ```
 CONSTANTS
