@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>objectmapperdatamodel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import Foundation
+import ObjectMapper
+
+struct Board: Mappable {
+    
+    init?(map: Map) {}
+    init() {}
+    
+    mutating func mapping(map: Map) {
+        id       &lt;- map[BoardKey.id.rawValue]
+    }
+    
+}
+
+enum BoardKey: String {
+    case id          = "id"
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D82E7633-6781-4A34-98A3-B20E1D15130F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Snippet for ObjectMapper</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ObjectMapper Data Model</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
